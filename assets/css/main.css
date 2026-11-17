@@ -2522,8 +2522,8 @@
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 0 auto;
-				width: 100%;
-				max-width: 360px;
+				width: 90%;
+				max-width: 324px;
 			}
 
 			#header > header h1 {
@@ -2988,7 +2988,7 @@
 
 					#header > header .avatar {
 						margin: 0 auto 1.5em auto;
-						width: 100%;
+						width: 90%;
 					}
 
 					#header > header h1 {
