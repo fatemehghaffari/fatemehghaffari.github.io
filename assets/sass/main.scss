@@ -79,7 +79,7 @@
 		font-weight: _font(weight-bold);
 	}
 
-	#date_strong, #date_strong_1, #date_strong_2, #date_strong_3 {
+	.entry-date {
 		color: _palette(accent1, bg);
 		font-weight: _font(weight-bold);
 	}
@@ -510,6 +510,10 @@
 	}
 
 /* List */
+
+	.publications > li {
+		margin-bottom: 1.25em;
+	}
 
 	ol {
 		list-style: decimal;

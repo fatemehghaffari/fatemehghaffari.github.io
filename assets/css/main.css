@@ -1583,23 +1583,8 @@
 	}
 
 
-	#date_strong {
+	.entry-date {
 		color: #743f50;
-		font-weight: 700;
-	}
-
-	#date_strong_1 {
-		color: #743f50;
-		font-weight: 700;
-	}
-
-	#date_strong_2 {
-		color: #743f50;
-		font-weight: 700;
-	}
-
-	#date_strong_3 {
-		color: 	#743f50;
 		font-weight: 700;
 	}
 
@@ -2055,6 +2040,10 @@
 			}
 
 /* List */
+
+	.publications > li {
+		margin-bottom: 1.25em;
+	}
 
 	ol {
 		list-style: decimal;
