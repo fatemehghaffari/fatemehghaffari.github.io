@@ -2040,6 +2040,13 @@
 
 /* List */
 
+	#publications .scholar-link {
+		font-size: 0.55em;
+		font-weight: 400;
+		margin-left: 0.4em;
+		white-space: nowrap;
+	}
+
 	.publications > li {
 		margin-bottom: 1.25em;
 	}
