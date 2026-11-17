@@ -503,6 +503,8 @@
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				aspect-ratio: 1;
+				object-fit: cover;
 			}
 		}
 	}
@@ -932,7 +934,8 @@
 			.avatar {
 				display: block;
 				margin: 0 auto _size(element-margin) auto;
-				width: 8em;
+				width: 13em;
+				max-width: 100%;
 			}
 
 			h1 {
@@ -1436,7 +1439,7 @@
 
 					.avatar {
 						margin: 0 auto (_size(element-margin) * 0.75) auto;
-						width: 6em;
+						width: 10em;
 					}
 
 					h1 {

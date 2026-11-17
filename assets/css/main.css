@@ -2050,6 +2050,8 @@
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				aspect-ratio: 1;
+				object-fit: cover;
 			}
 
 /* List */
@@ -2525,7 +2527,8 @@
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 0 auto;
-				width: 8em;
+				width: 13em;
+				max-width: 100%;
 			}
 
 			#header > header h1 {
@@ -2990,7 +2993,7 @@
 
 					#header > header .avatar {
 						margin: 0 auto 1.6875em auto;
-						width: 6em;
+						width: 10em;
 					}
 
 					#header > header h1 {
