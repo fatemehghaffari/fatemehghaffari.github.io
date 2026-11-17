@@ -2041,9 +2041,12 @@
 /* List */
 
 	#publications .scholar-link {
-		font-size: 0.55em;
+		display: inline-block;
+		font-size: 0.65em;
 		font-weight: 400;
 		margin-left: 0.4em;
+		text-decoration: underline;
+		text-underline-offset: 0.18em;
 		white-space: nowrap;
 	}
 
