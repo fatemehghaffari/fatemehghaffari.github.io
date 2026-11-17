@@ -496,15 +496,14 @@
 		}
 
 		&.avatar {
-			border-radius: 100%;
+			border-radius: 8px;
 			overflow: hidden;
 
 			img {
-				border-radius: 100%;
+				border-radius: 8px;
 				display: block;
 				width: 100%;
-				aspect-ratio: 1;
-				object-fit: cover;
+				height: auto;
 			}
 		}
 	}
@@ -933,13 +932,13 @@
 
 		> header {
 			@include vendor('flex-shrink', '0');
-			padding: 3em;
+			padding: 2em 1em 1.5em;
 
 			.avatar {
 				display: block;
 				margin: 0 auto _size(element-margin) auto;
-				width: 13em;
-				max-width: 100%;
+				width: 100%;
+				max-width: 360px;
 			}
 
 			h1 {
@@ -1109,7 +1108,7 @@
 				width: $size-header;
 
 				> header {
-					padding: 2em;
+					padding: 2em 1em 1.5em;
 				}
 
 				> footer {
@@ -1439,11 +1438,11 @@
 				}
 
 				> header {
-					padding: 2em;
+					padding: 2em 1em 1.5em;
 
 					.avatar {
-						margin: 0 auto (_size(element-margin) * 0.75) auto;
-						width: 10em;
+						margin: 0 auto 1.5em auto;
+						width: 100%;
 					}
 
 					h1 {

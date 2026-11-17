@@ -2027,16 +2027,15 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 8px;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 8px;
 				display: block;
 				width: 100%;
-				aspect-ratio: 1;
-				object-fit: cover;
+				height: auto;
 			}
 
 /* List */
@@ -2510,14 +2509,14 @@
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 3em;
+			padding: 2em 1em 1.5em;
 		}
 
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 0 auto;
-				width: 13em;
-				max-width: 100%;
+				width: 100%;
+				max-width: 360px;
 			}
 
 			#header > header h1 {
@@ -2683,7 +2682,7 @@
 			}
 
 				#header > header {
-					padding: 2em;
+					padding: 2em 1em 1.5em;
 				}
 
 				#header > footer {
@@ -2977,12 +2976,12 @@
 			}
 
 				#header > header {
-					padding: 2em;
+					padding: 2em 1em 1.5em;
 				}
 
 					#header > header .avatar {
-						margin: 0 auto 1.6875em auto;
-						width: 10em;
+						margin: 0 auto 1.5em auto;
+						width: 100%;
 					}
 
 					#header > header h1 {
