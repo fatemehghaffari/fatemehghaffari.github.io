@@ -28,36 +28,37 @@
 
 // Palette.
 	$palette: (
-		bg:					#fff,
-		fg:					#888,
-		fg-bold:			#777,
-		fg-light:			#aaa,
-		border:				#f4f4f4,
-		border-bg:			#fafafa,
-		border2:			#e4e4e4,
-		border2-bg:			#f4f4f4,
-		border3:			#e0e0e0,
-		border3-bg:			#eaeaea,
+		bg:					#fbf9f7,
+		fg:					#62585a,
+		fg-bold:			#3e3337,
+		fg-light:			#786b70,
+		border:				#f0e9e8,
+		border-bg:			#f7f3f1,
+		border2:			#ded1d5,
+		border2-bg:			#f0e9e8,
+		border3:			#d6c7cd,
+		border3-bg:			#ebe1e4,
 
 		accent1: (
-			bg:				#4acaa8,
-			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%)
+			bg:				#743f50,
+			fg-bold:		#fff9f5,
+			fg:				mix(#743f50, #fff9f5, 25%),
+			fg-light:		mix(#743f50, #fff9f5, 40%)
 		),
 
 		accent2: (
-			bg:				#989898,
-			fg-bold:		#ffffff,
-			fg:				mix(#989898, #ffffff, 25%),
-			fg-light:		mix(#989898, #ffffff, 40%)
+			bg:				#76676c,
+			fg-bold:		#fff9f5,
+			fg:				mix(#76676c, #fff9f5, 25%),
+			fg-light:		mix(#76676c, #fff9f5, 40%)
 		),
 
 		header: (
-			bg:				#4acaa8,
-			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%),
-			border:			mix(#4acaa8, #ffffff, 90%)
+			bg:				#5b303e,
+			bg-hover:		#6b3c4b,
+			fg-bold:		#fff9f5,
+			fg:				#eadfe2,
+			fg-light:		#d9c4cb,
+			border:			#6b3c4b
 		)
 	);

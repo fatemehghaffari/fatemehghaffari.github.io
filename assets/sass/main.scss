@@ -79,6 +79,11 @@
 		font-weight: _font(weight-bold);
 	}
 
+	#date_strong, #date_strong_1, #date_strong_2, #date_strong_3 {
+		color: _palette(accent1, bg);
+		font-weight: _font(weight-bold);
+	}
+
 	em, i {
 		font-style: italic;
 	}
@@ -88,7 +93,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
+		color: _palette(accent1, bg);
 		font-weight: _font(weight-bold);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.25) 0;
@@ -155,9 +160,9 @@
 	}
 
 	code {
-		background: #555;
+		background: #51454a;
 		border-radius: _size(border-radius);
-		color: #fff;
+		color: _palette(accent1, fg-bold);
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -976,14 +981,20 @@
 					a {
 						@include vendor('transition', 'none');
 						border: 0;
-						color: _palette(header, fg-bold) !important;
+						color: _palette(header, fg) !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 
+						&:hover,
+						&:focus-visible {
+							background: _palette(header, bg-hover);
+							color: _palette(header, fg-bold) !important;
+						}
+
 						&.active {
 							background: _palette(bg);
-							color: _palette(header, bg) !important;
+							color: _palette(accent1, bg) !important;
 						}
 					}
 
@@ -1042,9 +1053,9 @@
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: _palette(bg);
 		border-top: 0;
-		color: #c0c0c0;
+		color: _palette(fg-light);
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 
@@ -1054,7 +1065,7 @@
 			padding: 0;
 
 			li {
-				border-left: solid 1px #d4d4d4;
+				border-left: solid 1px _palette(border2);
 				display: inline-block;
 				font-size: 0.8em;
 				margin-left: 1em;
@@ -1244,12 +1255,12 @@
 				top: 0;
 				width: 100%;
 				z-index: _misc(z-index-base) + 1;
-				background: #222;
-				color: #fff;
+				background: _palette(header, bg);
+				color: _palette(accent1, fg-bold);
 				min-width: 320px;
 
 				.title {
-					color: #fff;
+					color: _palette(accent1, fg-bold);
 					display: block;
 					font-weight: _font(weight-bold);
 					height: 44px;
